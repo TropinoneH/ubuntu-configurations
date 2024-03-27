@@ -1,0 +1,48 @@
+{
+    "$schema": "/home/mspt5/.config/fastfetch/json_schema.jsonc",
+    "modules": [
+        "title",
+        "separator",
+        {
+            "type": "os",
+            "format": "{3} {12}"
+        },
+        {
+            "type": "host",
+            "format": "{/2}{-}{/}{2}{?3} {3}{?}"
+        },
+        "kernel",
+        "uptime",
+        "packages",
+        "shell",
+        {
+            "type": "display",
+            "compactType": "original",
+            "key": "Resolution"
+        },
+        "de",
+        "wm",
+        "wmtheme",
+        {
+            "type": "theme",
+            "format": "{?1}{1}{?3} {3}{?} [Plasma], {?}{7}"
+        },
+        "icons",
+        "terminal",
+        {
+            "type": "terminalfont",
+            "format": "{/2}{-}{/}{2}{?3} {3}{?}"
+        },
+        "cpu",
+        {
+            "type": "gpu",
+            "key": "GPU"
+        },
+        {
+            "type": "memory",
+            "format": "{/1}{-}{/}{/2}{-}{/}{} / {}"
+        },
+        "break",
+        "colors"
+    ]
+}
